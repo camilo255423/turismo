@@ -23,7 +23,7 @@ return array(
 		
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'Enter Your Password Here',
+			'password'=>'turismo@3945',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('186.28.22.194','::1'),
 		),
@@ -53,10 +53,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=turismo',
+			'connectionString' => 'mysql:host=localhost;dbname=camjoha_turismo',
 			'emulatePrepare' => true,
-			'username' => '',
-			'password' => '',
+			'username' => 'camjoha_turismo',
+			'password' => 'turismo@3945',
 			'charset' => 'utf8',
 		),
 		
